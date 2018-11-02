@@ -13,8 +13,8 @@ def name
   @name
 end
 
-def breed=(dog_breed = "Mutt")
-  @breed = dog_breed
+def breed=(dog_breed)
+  @breed = "Mutt"
 end
 
 def breed
